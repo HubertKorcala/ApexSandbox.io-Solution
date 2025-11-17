@@ -2,5 +2,5 @@ public Boolean ascendingOrder(Integer a, Integer b, Integer c) {
     List<Integer> list = new List<Integer>{a,b,c};
     List<Integer> ascendingList = new List<Integer>(list);
     ascendingList.sort();
-    return list == ascendingList;
+    return list.equals(sortedList);
 }
