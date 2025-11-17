@@ -1,6 +1,6 @@
 public Boolean ascendingOrder(Integer a, Integer b, Integer c) {
-    List<Integer> list = new List<Integer>{a, b, c};
-    List<Integer> sortedList = new List<Integer>(list);
-    sortedList.sort();
-    return list.equals(sortedList);
+    List<Integer> numbers = new List<Integer>{a, b, c};
+    List<Integer> sortedNumbers = new List<Integer>(numbers);
+    sortedNumbers.sort();
+    return numbers.equals(sortedNumbers);
 }
